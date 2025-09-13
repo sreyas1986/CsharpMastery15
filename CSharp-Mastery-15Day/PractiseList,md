@@ -1,0 +1,43 @@
+Top C# Problems to Practice (with Context)
+🧮 Algorithmic + LeetCode-Style Challenges
+|  |  | 
+| TwoSum |  | 
+| Longest Substring Without Repeating Characters |  | 
+| Merge Intervals |  | 
+| Group Anagrams |  | 
+| LRU Cache |  | 
+| Median of Two Sorted Arrays |  | 
+| Find All Duplicates in an Array |  | 
+| Top K Frequent Elements |  | 
+| Valid Parentheses |  | 
+| Search in Rotated Sorted Array |  | 
+
+
+
+
+Enterprise + BFSI System Design Problems
+|  |  | 
+| Rate Limiter |  | 
+| Audit Logger |  | 
+| Transaction Reconciliation Engine |  | 
+| Loan Eligibility Rule Engine |  | 
+| Secure API Gateway |  | 
+| Multi-Tenant Config Loader |  | 
+| Dynamic Workflow Executor |  | 
+| Notification Dispatcher |  | 
+| Payment Gateway Adapter |  | 
+| User Session Tracker |  | 
+
+
+
+
+Testing + Refactoring Challenges
+|  |  | 
+| Refactor Legacy Class to Follow OCP |  | 
+| Write Unit Tests for PaymentProcessor |  | 
+| Mock External API with Retry Logic |  | 
+| Refactor LINQ-heavy Code for Performance |  | 
+
+
+
+
