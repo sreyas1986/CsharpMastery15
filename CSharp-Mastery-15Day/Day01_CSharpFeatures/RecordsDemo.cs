@@ -1,8 +1,8 @@
 // RecordsDemo.cs
 // Demo for C# record types
 using System;
-public class Program{
-public static void Main()
+public  class Program1{
+public  void Main()
 {
 
 
