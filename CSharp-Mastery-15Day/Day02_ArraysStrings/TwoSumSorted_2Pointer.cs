@@ -5,7 +5,7 @@ public class Solution {
         int right=nums.length-1;
         while (left<right)
         {
-            sum=nums[left]+nums[right]
+            sum=nums[left]+nums[right];
             if(sum==target){
                 return new int[]{left,right};
             }
