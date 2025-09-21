@@ -1,13 +1,15 @@
 using System;
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
+public class TwoSumSolution {
+    public int[] TwoSum(int[] nums, int target) 
+    {
         int left=0;
-        int right=nums.length-1;
+        int right=nums.Length-1;
+        int sum=0;
         while (left<right)
         {
             sum=nums[left]+nums[right];
             if(sum==target){
-                return new int[]{left,right};
+                return new int[2]{left,right};
             }
             else if (sum <target)
             {

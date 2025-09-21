@@ -1,7 +1,9 @@
 // LongestSubstring.cs
 // Longest Substring Without Repeating Characters
 // This is a Sliding window pattern
-public class Solution {
+using System;
+using System.Collections.Generic;
+public class LenSolution {
     public int LengthOfLongestSubstring(string s) 
     {
 
@@ -15,15 +17,16 @@ public class Solution {
             if(lastSeen.ContainsKey(s[i])&& lastSeen[s[i]] > start){
                 // Move the start of the window to one position after the last occurrence
                 // This effectively "slides" the window forward past the duplicate
-                start=lastSeen[i]+1;
+              //  start=lastSeen[i]+1;
             }
 
             // Update the last seen index of the current character
                 lastSeen[s[i]] = i;
             // Calculate the current window size and update maxLength if it's larger
-            maxLength = Math.Max(maxLength, i - start + 1);
+         //   maxLength = Math.Max(maxLength, i - start + 1);
 
         }
+        return 0;
     }
 
 

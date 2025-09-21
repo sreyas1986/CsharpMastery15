@@ -1,9 +1,9 @@
 // SwitchExpressions.cs
 // Demo for C# switch expressions
 using System;
-public class  Program
+public class  Program2
 {
-public static void Main()
+public static void Main2()
 {
 
     string transactionType="IMPS";

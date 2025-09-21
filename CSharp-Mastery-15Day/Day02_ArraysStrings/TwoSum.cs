@@ -1,7 +1,8 @@
 // TwoSum.cs
 // Two Sum problem solution
 using System;
-public class Solution {
+using System.Collections.Generic;
+public class TwoSolution {
     public int[] TwoSum(int[] nums, int target) {
    Dictionary<int,int> result= new Dictionary<int,int>();
 
