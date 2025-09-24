@@ -1,7 +1,5 @@
 // ParallelFetcher.cs
 // Async/Await and parallel fetching demo
-// ParallelFetcher.cs
-// Async/Await and parallel fetching demo
 
 using System;
 using System.Collections.Generic;
