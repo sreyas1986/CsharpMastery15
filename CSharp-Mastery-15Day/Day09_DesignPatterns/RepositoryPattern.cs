@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+
 //Repository Example
 //Advantage code in the EmployeeRepository can be replced by any other EF or Dapper without touching anywhere
 public class Employee{
@@ -23,7 +25,7 @@ public class EmployeeRepository: IEmployeeRepository
 //***************Services Folder*******************
 interface EmployeeServices
 {
-    public Employee GetEmployees
+    public Employee GetEmployees();
 }
 public class EmployeeServices :IEmployeeServices
 {
